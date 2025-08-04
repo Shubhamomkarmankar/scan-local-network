@@ -1,0 +1,36 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 19:42 +0530
+Nmap scan report for 192.168.0.1
+Host is up (0.012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+7777/tcp  open  cbt
+52869/tcp open  unknown
+MAC Address: AC:F1:DF:22:9D:DA (D-Link International)
+
+Nmap scan report for 192.168.0.100
+Host is up (0.0050s latency).
+All 1000 scanned ports on 192.168.0.100 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 68:FF:7B:E7:DA:57 (TP-Link Technologies)
+
+Nmap scan report for 192.168.0.105
+Host is up (0.028s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B2:9C:DD:30:16:22 (Unknown)
+
+Nmap scan report for 192.168.0.108
+Host is up (0.00024s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+8000/tcp open  http-alt
+8089/tcp open  unknown
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 76.90 seconds
